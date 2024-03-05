@@ -25,7 +25,7 @@ node{
 				type: war		
 			]	
 		],
-		credentialsId: 'nexus3',
+		credentialsId: 'nexus-Repo',
 		groupId: 'in.ashokit',
 		nexusUrl: 'http://54.157.21.144:8081',
 		protocol: 'http',
