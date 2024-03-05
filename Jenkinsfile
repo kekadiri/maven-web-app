@@ -11,7 +11,7 @@ node{
     }
     
     stage('SonarQube analysis') {       
-        withSonarQubeEnv('sonarqube') {
+        withSonarQubeEnv(CredentialsId: 'sonarqube') {
        	sh "mvn sonar:sonar"    	
     }
         
