@@ -11,7 +11,7 @@ node{
     }
     
     stage('SonarQube analysis') {       
-        withSonarQubeEnv('Sonar-Server-7.8') {
+        withSonarQubeEnv('sonarqube') {
        	sh "mvn sonar:sonar"    	
     }
         
