@@ -27,7 +27,7 @@ node{
 		],
 		credentialsId: 'nexus-Repo',
 		groupId: 'in.ashokit',
-		nexusUrl: 'http://54.157.21.144:8081',
+		nexusUrl: '3.82.57.126:8081',
 		protocol: 'http',
 		repository: 'ashokit-release'
 		version: '1.0.0'
